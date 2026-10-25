@@ -1,0 +1,4 @@
+actor: FormulaeTester
+modules:
+    enabled:
+        - Asserts

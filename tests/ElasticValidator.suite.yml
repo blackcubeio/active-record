@@ -1,0 +1,4 @@
+actor: ElasticValidatorTester
+modules:
+    enabled:
+        - Asserts

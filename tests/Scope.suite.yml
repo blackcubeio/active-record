@@ -1,0 +1,4 @@
+actor: ScopeTester
+modules:
+    enabled:
+        - Asserts

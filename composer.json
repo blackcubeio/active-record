@@ -1,0 +1,87 @@
+{
+    "name": "blackcube/active-record",
+    "description": "Scoped queries, elastic dynamic attributes, Hazeltree nested sets — a toolkit for ActiveRecord",
+    "keywords": [
+        "active-record",
+        "active-query",
+        "scope",
+        "query-scope",
+        "dynamic-scope",
+        "column-qualification",
+        "named-parameters",
+        "elastic",
+        "json-schema",
+        "dynamic-attributes",
+        "virtual-columns",
+        "nested-set",
+        "tree",
+        "hierarchical",
+        "yii"
+    ],
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "readme": "README.md",
+    "homepage": "https://github.com/blackcubeio/active-record",
+    "support": {
+        "issues": "https://github.com/blackcubeio/active-record/issues",
+        "source": "https://github.com/blackcubeio/active-record"
+    },
+    "authors": [
+        {
+            "name": "Philippe Gaultier",
+            "email": "philippe@blackcube.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "ext-intl": "*",
+        "php": "^8.2",
+        "blackcube/injector": "^1.0",
+        "psr/log": "^3.0",
+        "swaggest/json-schema": "^0.12.43",
+        "yiisoft/active-record": "^1.1",
+        "yiisoft/cache": "^3.2",
+        "yiisoft/db": "^2.1",
+        "yiisoft/event-dispatcher": "^1.1",
+        "yiisoft/validator": "^2.6"
+    },
+    "suggest": {
+        "blackcube/magic-compose": "Blackcube\\MagicCompose\\MagicComposeActiveRecordTrait for models composing their own magic traits"
+    },
+    "require-dev": {
+        "blackcube/magic-compose": "^1.0",
+        "codeception/codeception": "^5.3",
+        "codeception/module-asserts": "^3.3",
+        "codeception/module-db": "^3.2",
+        "phpcompatibility/php-compatibility": "^9.3",
+        "vlucas/phpdotenv": "^5.7",
+        "yiisoft/cache-file": "^3.2",
+        "yiisoft/db-migration": "^2.2",
+        "yiisoft/db-mysql": "^2.0",
+        "yiisoft/di": "^1.4",
+        "yiisoft/factory": "^1.3",
+        "yiisoft/test-support": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Blackcube\\ActiveRecord\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Blackcube\\ActiveRecord\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-devel": "1.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "platform": {
+            "php": "8.2"
+        }
+    }
+}

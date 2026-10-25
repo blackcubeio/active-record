@@ -1,0 +1,4 @@
+actor: BatchedEagerTester
+modules:
+    enabled:
+        - Asserts

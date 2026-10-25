@@ -1,0 +1,4 @@
+actor: QualifyColumnTester
+modules:
+    enabled:
+        - Asserts

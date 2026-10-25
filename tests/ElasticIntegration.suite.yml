@@ -1,0 +1,4 @@
+actor: ElasticIntegrationTester
+modules:
+    enabled:
+        - Asserts

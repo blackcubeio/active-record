@@ -1,0 +1,4 @@
+actor: ElasticMigrationTester
+modules:
+    enabled:
+        - Asserts
